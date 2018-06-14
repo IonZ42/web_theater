@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>电影详情</title>
+    <link href="./css/seats.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="app">
+        <div class="main clearfix">
+            <div class="hall">
+                <div class="seat-example">
+                    <div class="selectable-example example">
+                        <span>可选座位</span>
+                    </div>
+                    <div class="sold-example example">
+                        <span>已售座位</span>
+                    </div>
+                    <div class="selected-example example">
+                        <span>已选座位</span>
+                    </div>
+                </div>
+                <div class="seats-block">
+                    <div class="row-id-container"></div>
+
+                    <div class="seats-container">
+                        <div class="screen-container">
+                            <div class="screen">银幕中央</div>
+                            <div class="c-screen-line"></div>
+                        </div>
+                        <div class="seats-wrapper"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="side">
+                <div class="show-info"></div>
+                <div class="ticket-info">
+                    <div class="no-ticket">
+                        <p class="buy-limit">座位：一次最多选6个座位</p>
+                        <p class="no-selected">请<span>点击左侧</span>座位图选择座位</p>
+                    </div>
+                    <div class="has-ticket" style="display:none">
+                        <span class="text">座位：</span>
+                        <div class="ticket-container" data-limit="6"></div>
+                    </div>
+                    <div class="total-price">
+                        <span>总价 :</span>
+                        <span class="price">0</span>
+                    </div>
+                </div>
+                <div class="confirm-order">
+                    <div class="confirm-btn disable" onclick="confirmOrder(this)" id="confirm-btn">确认选座</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--div id="top" class="order-content"></div>
+    <div id="mask" class="mask"></div-->
+</body>
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/seats.js"></script>
+
+</html>

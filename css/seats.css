@@ -1,0 +1,360 @@
+.main {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    font-size: 0px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+body {
+    margin: 0;
+}
+
+body {
+    font-family: Microsoft YaHei, Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.hall {
+    width: 820px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.side {
+    width: 340px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: inline-block;
+}
+
+.side .show-info {
+    margin-top: 20px;
+}
+
+.side .ticket-info {
+    padding: 20px 0 10px;
+    border-top: 1px dashed #e5e5e5;
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+.side .confirm-order {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.side .confirm-order .confirm-btn {
+    cursor: default;
+    width: 260px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 21px;
+    position: relative;
+    left: 50%;
+    margin: 38px 0 0 -130px;
+    background-color: #f03d37;
+    -webkit-box-shadow: 0 2px 10px -2px #f03d37;
+    box-shadow: 0px 2px 10px -2px #f03d37;
+}
+
+.side .confirm-order .confirm-btn.disable {
+    background-color: #dedede;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    margin: 0;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+img {
+    border-style: none;
+}
+
+.side .ticket-info .total-price {
+    font-size: 14px;
+    color: #333;
+}
+
+.side .ticket-info .total-price .price {
+    color: #f03d37;
+    font-size: 24px;
+}
+
+.side .ticket-info .text {
+    font-size: 14px;
+    color: #999;
+    float: left;
+}
+
+.side .ticket-info .ticket-container {
+    margin-left: 42px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -5px;
+}
+
+.side .ticket-info .ticket {
+    cursor: default;
+    position: relative;
+    font-size: 12px;
+    color: #f03d37;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 12px 10px 0;
+    background: url("../img/ticket.png") no-repeat;
+}
+
+.side .ticket-info .buy-limit {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+}
+
+.side .ticket-info .no-selected {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    margin: 28px 0 39px;
+}
+
+.side .ticket-info .no-selected span {
+    color: #f03d37;
+}
+
+.side .info-item {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 4px;
+}
+
+.side .show-info .info-item {
+    margin-bottom: 9px;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.side .info-item .value {
+    color: #151515;
+    margin-left: 2px;
+}
+
+.side .show-info .info-item>span {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.side .show-info .info-item .value {
+    width: 85%;
+}
+
+.side .show-info .info-item .screen {
+    color: #f03d37;
+}
+
+.side .movie-info .poster {
+    width: 115px;
+    height: 158px;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 0 2px 7px 0 hsla(0, 0%, 53%, .5);
+    box-shadow: 0px 2px 7px 0px hsla(0, 0%, 53%, 0.5);
+    float: left;
+}
+
+.side .movie-info .content {
+    margin-left: 140px;
+}
+
+.side .show-info .name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 14px;
+}
+
+.side .movie-info .poster img {
+    width: 100%;
+    height: 100%;
+}
+
+.hall .seat-example {
+    margin: 30px 0 30px 180px;
+}
+
+.seats-block {
+    font-size: 0px;
+    overflow: hidden;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+.seats-block .row-id-container {
+    width: 20px;
+    float: left;
+    margin-top: 112px;
+    white-space: normal;
+}
+
+.seats-block .seats-container {
+    margin-left: 100px;
+    overflow: auto;
+    position: relative;
+    padding-top: 112px;
+}
+
+.seats-block .screen-container {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.seats-block .seats-wrapper {
+    display: inline-block;
+    min-width: 550px;
+}
+
+.seats-block .row {
+    white-space: nowrap;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.seats-block .seat {
+    display: inline-block;
+    font-size: 0px;
+    width: 30px;
+    height: 26px;
+    margin: 0 5px;
+    background: url("../img/st0.png") no-repeat;
+    background-position: 0 1px;
+}
+
+.seats-block .seat.empty {
+    background-image: none;
+    /*没有座椅的单元格*/
+}
+
+.seats-block .seat.sold {
+    background: url("../img/st1.png") no-repeat;
+}
+
+.seats-block .seat.selected {
+    background: url("../img/st2.png") no-repeat;
+}
+
+.seats-block .screen-container .screen {
+    width: 550px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    background: url("../img/screen.png") no-repeat;
+    background-position-x: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.seats-block .screen-container .c-screen-line {
+    width: 0px;
+    border-left: 1px dashed #e5e5e5;
+    position: absolute;
+    top: 90px;
+    bottom: 0px;
+    left: 50%;
+}
+
+.seats-block .row-id {
+    font-size: 16px;
+    color: #999;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 26px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.hall .seat-example .example {
+    display: inline-block;
+    font-size: 16px;
+    color: #666;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 38px;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+}
+
+.hall .seat-example .selectable-example {
+    background-image: url("../img/st0.png");
+}
+
+.hall .seat-example .sold-example {
+    background-image: url("../img/st1.png");
+}
+
+.hall .seat-example .selected-example {
+    background-image: url("../img/st2.png");
+}
+
+.mask {
+    background: black;
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    transition: all 0.2s ease 0s;
+}
+
+.order-content {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    z-index: 100;
+    overflow: auto;
+}

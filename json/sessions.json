@@ -1,0 +1,145 @@
+[{
+        "movieID": "1",
+        "sessionID": "1001",
+        "startDate": "2015/6/10",
+        "startTime": "17:30",
+        "endTime": "19:39",
+        "hallID": "1",
+        "seats": [
+            false, false, false, false, false, false, false, false,
+            true, true, true, true, true, true, true, true,
+            false, false, false, true, true, false, false, false,
+            false, true, true, false, false, false, false, false,
+            false, false, false, false, false, false, false, false
+        ],
+        "isValid": true
+    },
+    {
+        "movieID": "1",
+        "sessionID": "1002",
+        "startDate": "2015/6/10",
+        "startTime": "19:30",
+        "endTime": "21:39",
+        "hallID": "2",
+        "seats": [
+            true, true, true, true, true, true, true, true,
+            false, false, false, false, false, false, false, false,
+            false, false, false, false, false, false, false, false,
+            false, false, false, false, false, false, false, false,
+            false, false, false, false, false, false, false, false
+        ],
+        "isValid": true
+    },
+    {
+        "movieID": "2",
+        "sessionID": "2001",
+        "startDate": "2015/6/10",
+        "startTime": "10:30",
+        "endTime": "12:03",
+        "hallID": "2",
+        "seats": [
+            false, false, false, false, false, false, false, false,
+            false, false, true, true, true, true, false, false,
+            false, false, true, true, true, true, false, false,
+            false, false, true, true, true, true, false, false,
+            false, false, false, false, false, false, false, false
+        ],
+        "isValid": true
+    },
+    {
+        "movieID": "3",
+        "sessionID": "3001",
+        "startDate": "2015/6/12",
+        "startTime": "10:30",
+        "endTime": "12:12",
+        "hallID": "1",
+        "seats": [
+            false, false, true, true, true, true, false, false,
+            false, false, true, true, true, true, false, false,
+            false, false, false, false, false, false, false, false,
+            false, false, false, false, false, false, false, false,
+            false, false, false, false, false, false, false, false
+        ],
+        "isValid": true
+    },
+    {
+        "movieID": "4",
+        "sessionID": "4001",
+        "startDate": "2015/6/12",
+        "startTime": "10:30",
+        "endTime": "12:52",
+        "hallID": "2",
+        "seats": [
+            false, false, false, false, false, false, false, false,
+            true, true, true, true, true, true, true, true,
+            false, false, false, false, false, false, false, false,
+            false, false, false, false, false, false, false, false,
+            true, true, true, true, true, true, true, true
+        ],
+        "isValid": true
+    },
+    {
+        "movieID": "5",
+        "sessionID": "5001",
+        "startDate": "2015/6/15",
+        "startTime": "19:30",
+        "endTime": "21:12",
+        "hallID": "1",
+        "seats": [
+            false, false, false, false, false, false, false, false,
+            false, false, false, false, true, true, true, true,
+            true, true, true, true, false, false, false, false,
+            false, false, false, false, true, true, true, true,
+            false, false, false, false, false, false, false, false
+        ],
+        "isValid": true
+    },
+    {
+        "movieID": "6",
+        "sessionID": "6001",
+        "startDate": "2015/6/15",
+        "startTime": "19:30",
+        "endTime": "21:40",
+        "hallID": "2",
+        "seats": [
+            true, true, true, true, true, true, true, true,
+            false, false, false, false, false, false, false, false,
+            true, true, true, true, true, true, true, true,
+            false, false, false, false, false, false, false, false,
+            false, false, false, false, false, false, false, false
+        ],
+        "isValid": true
+    },
+    {
+        "movieID": "7",
+        "sessionID": "7001",
+        "startDate": "2015/6/18",
+        "startTime": "19:30",
+        "endTime": "21:15",
+        "hallID": "1",
+        "seats": [
+            false, false, false, false, false, false, false, false,
+            false, false, false, false, false, false, false, false,
+            false, false, false, false, false, false, false, false,
+            true, true, true, true, true, true, true, true,
+            true, true, true, true, true, true, true, true
+        ],
+        "isValid": true
+    },
+    {
+        "movieID": "8",
+        "sessionID": "8001",
+        "startDate": "2015/6/18",
+        "startTime": "19:30",
+        "endTime": "21:24",
+        "hallID": "2",
+        "seats": [
+            true, true, true, true, true, true, true, true,
+            true, true, true, true, true, true, true, true,
+            true, true, true, true, true, true, true, true,
+            false, false, false, false, false, false, false, false,
+            false, false, false, false, false, false, false, false
+        ],
+        "isValid": true
+    }
+]
